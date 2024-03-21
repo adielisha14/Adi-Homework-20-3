@@ -1,0 +1,66 @@
+*{margin: 0;
+padding: 0;
+}
+body{display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+font-size: 14px;
+background-color: hsl(30, 38%, 92%);
+}
+table{ margin: 20vw 30vw 20vw 30vw;
+width: 40%;
+background-color: white;
+border-style: solid;
+border-color: hsl(30, 38%, 92%);
+border-spacing: 0;
+border-radius:15px;
+
+}
+
+td{width: 50%;
+}
+
+#bigbox{display: inline-block;
+    background-color: white;
+    width: 40%;
+}
+
+
+#bigbox>.small{
+width: 50%;}
+
+img{width: 100%;
+margin: 0;
+float: left;}
+
+i{size: 14px;}
+
+h1{color: hsl(212, 21%, 14%)}
+
+
+
+#buy{color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+background-color: hsl(158, 36%, 37%);
+border: solid;
+border-radius: 10px;
+}
+
+.font1{  font-family: "Fraunces", serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+      font-variation-settings:
+        "SOFT" 0,
+        "WONK" 0;}
+
+#icon{width:15px; height:16px;}
+
+.colora{color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;}
